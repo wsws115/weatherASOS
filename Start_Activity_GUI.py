@@ -5,7 +5,7 @@ from tkinter import ttk, filedialog
 import pandas as pd
 from tkcalendar import *
 import tkinter.font
-from Day_Simple_GUI import Day_simple_test
+from Day_simple_test import Day_simple_test
 
 
 class Start_Activity:
