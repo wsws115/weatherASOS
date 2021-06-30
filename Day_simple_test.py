@@ -171,7 +171,7 @@ class Day_Simple(object):
             nums = str(numi)
             if nen_day <= dat_plus: # start day ~ end day <= 1000day
                 queryParams = '?' + \
-                              'ServiceKey=' + 'cXG%2BsVlagSV2%2FrTreOPObTV1p66Hho1fOgZi0uxSNS3GGBq7xLhMe9uPRSf3u4Ya%2BoyDgW4evwP42PU18PTy0g%3D%3D' + \
+                              'ServiceKey=' + 'your api key' + \
                               '&pageNo=' + '1' + \
                               '&numOfRows=' + '999' + \
                               '&dataType=' + 'JSON' + \
@@ -219,7 +219,7 @@ class Day_Simple(object):
                         st_d = str(datetime.strftime(st_day_1, '%Y%m%d'))
                         en_d = str(datetime.strftime(en_day_1, '%Y%m%d'))
                         queryParams = '?' + \
-                                      'ServiceKey=' + 'cXG%2BsVlagSV2%2FrTreOPObTV1p66Hho1fOgZi0uxSNS3GGBq7xLhMe9uPRSf3u4Ya%2BoyDgW4evwP42PU18PTy0g%3D%3D' + \
+                                      'ServiceKey=' + 'your api key' + \
                                       '&pageNo=' + '1' + \
                                       '&numOfRows=' + '999' + \
                                       '&dataType=' + 'JSON' + \
@@ -263,7 +263,7 @@ class Day_Simple(object):
                         st_d2 = str(datetime.strftime(st_day_2, '%Y%m%d'))
                         en_d2 = str(datetime.strftime(en_day_2, '%Y%m%d'))
                         queryParams = '?' + \
-                                      'ServiceKey=' + 'cXG%2BsVlagSV2%2FrTreOPObTV1p66Hho1fOgZi0uxSNS3GGBq7xLhMe9uPRSf3u4Ya%2BoyDgW4evwP42PU18PTy0g%3D%3D' + \
+                                      'ServiceKey=' + 'your api key' + \
                                       '&pageNo=' + '1' + \
                                       '&numOfRows=' + '999' + \
                                       '&dataType=' + 'JSON' + \
