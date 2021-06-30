@@ -9,4 +9,4 @@ weather DAY ASOS data
 
 기상자료 간소화만 현재 작동중
 
-GUI programm은 
+GUI programm 는 tkinter 
