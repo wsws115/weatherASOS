@@ -16,7 +16,6 @@ class Start_Activity:
         self.st_app.resizable(False, False)  # 크기 고정
         self.st_app.configure(bg='#CCFFFF')
         font = tkinter.font.Font(family = "HY헤드라인M",size = 20)
-        mark_image = tkinter.PhotoImage(file=r"C:\Users\WM\Desktop\(주)수계.png")
         label_test1 = tkinter.Label(self.st_app, image=mark_image)
         label_test1.place(relx=0, rely=0.03, relwidth=1, relheight=0.2)
         label_title = tkinter.Label(self.st_app, text = "기상 수질자료 수집프로그램", font = font, bg = '#CCFFFF')
